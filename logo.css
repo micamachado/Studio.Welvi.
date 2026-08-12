@@ -1,0 +1,27 @@
+/* Official Studio WELVI logo placements */
+.brand {
+  display: block;
+  width: max-content;
+  line-height: 1;
+}
+
+.brand img {
+  display: block;
+  width: 164px;
+  height: auto;
+  object-fit: contain;
+}
+
+.brand-footer img {
+  width: 190px;
+}
+
+@media (max-width: 560px) {
+  .brand img {
+    width: 138px;
+  }
+
+  .brand-footer img {
+    width: 175px;
+  }
+}
